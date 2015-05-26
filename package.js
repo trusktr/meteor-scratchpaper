@@ -28,6 +28,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
     api.use('tinytest')
-    api.use('trusktr:lib')
+    api.use('trusktr:scratchpaper')
     api.addFiles('lib-tests.js')
 })
