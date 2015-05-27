@@ -18,7 +18,7 @@ Package.onUse(function(api) {
     api.versionsFrom('1.1.0.2')
 
     api.use([
-        'rocket:module@0.0.1'
+        'rocket:module@0.0.2'
     ], 'client')
 
     api.addFiles('client.module.js', 'client')
