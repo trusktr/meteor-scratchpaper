@@ -22,7 +22,7 @@ Package.onUse(function(api) {
     ], 'client')
 
     api.addFiles('client.module.js', 'client')
-    api.addFiles('other.module.js', 'client')
+    api.addFiles('/foo/bar.module.js', 'client')
 
     api.export('Lib', 'client')
 })
