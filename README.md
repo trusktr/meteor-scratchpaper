@@ -1,4 +1,4 @@
 trusktr:scratchpaper
 ====================
 
-A package for meteor that I can do random experiments in.
+A package that I can do experiments in. You probably don't want to install this.

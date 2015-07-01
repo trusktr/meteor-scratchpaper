@@ -2,7 +2,7 @@ Package.describe({
     name: 'trusktr:scratchpaper',
     version: '0.0.3',
     // Brief, one-line summary of the package.
-    summary: 'A package for meteor that I can test random crap in.',
+    summary: 'A package that I can do experiments in.',
     // URL to the Git repository containing the source code for this package.
     git: 'https://github.com/trusktr/meteor-scratchpaper',
     // By default, Meteor will default to using README.md for documentation.
