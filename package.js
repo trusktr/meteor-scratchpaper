@@ -10,19 +10,22 @@ Package.describe({
     documentation: 'README.md'
 })
 
-Npm.depends({
-    'upper-case': "1.1.2",
-})
-
 Package.onUse(function(api) {
     api.versionsFrom('1.1.0.2')
 
     api.use([
-        'rocket:module@0.1.1_1'
+        'rocket:module@0.5.0'
+    ])
+
+    // npm dependencies:
+    api.addFiles('npm.json')
+
+    api.addFiles([
+        'client.entry.js',
+        'local.js'
     ], 'client')
 
-    api.addFiles('client.module.js', 'client')
-    api.addFiles('foo/bar.module.js', 'client')
+    api.addFiles('foo/bar.entry.js', 'server')
 
     api.export('Lib', 'client')
 })

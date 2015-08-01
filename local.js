@@ -1,1 +1,1 @@
-module.exports = "An exported sentece from a local file."
+export default "This is an exported sentence from a local file in rocket:module-example-package."
